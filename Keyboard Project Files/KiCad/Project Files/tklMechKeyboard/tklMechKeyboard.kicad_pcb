@@ -80,4 +80,2327 @@
 		)
 	)
 	(net 0 "")
+	(net 1 "unconnected-(D1-K-Pad1)")
+	(net 2 "Net-(D1-A)")
+	(net 3 "unconnected-(D2-A-Pad2)")
+	(net 4 "unconnected-(D2-K-Pad1)")
+	(net 5 "unconnected-(D3-A-Pad2)")
+	(net 6 "unconnected-(D3-K-Pad1)")
+	(net 7 "unconnected-(D4-K-Pad1)")
+	(net 8 "unconnected-(D4-A-Pad2)")
+	(net 9 "Net-(S1-Pad2)")
+	(net 10 "unconnected-(S1-Pad1)")
+	(net 11 "Net-(S2-Pad2)")
+	(net 12 "Net-(S3-Pad2)")
+	(footprint "ScottoKeebs_MX:MX_PCB_1.00u"
+		(layer "F.Cu")
+		(uuid "4ceda240-18b9-4a0d-a88c-716f2acc636b")
+		(at 122 94.5)
+		(descr "MX keyswitch PCB Mount Keycap 1.00u")
+		(tags "MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
+		(property "Reference" "S3"
+			(at 0 -8 0)
+			(layer "F.SilkS")
+			(uuid "a66c646c-699e-4c0e-ace8-cbdda998eecb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 0 8 0)
+			(layer "F.Fab")
+			(uuid "77831acb-bd88-4efd-a843-e7998afe5502")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2b6fdd3-c67d-47c9-8f54-f1cbfa1a0a95")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87d7e326-ff39-4f2a-96eb-540170995d7c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f66a04a4-a137-4460-9f6f-4fd8ecdb669d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/f8826c90-fac7-4f00-9fd1-ce4fce95145b")
+		(sheetname "Root")
+		(sheetfile "tklMechKeyboard.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -7.1 -7.1)
+			(end -7.1 7.1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "91ade35e-259b-46ff-8aeb-8db4de71981f")
+		)
+		(fp_line
+			(start -7.1 7.1)
+			(end 7.1 7.1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fae19388-ad05-49f4-9c6a-c31a2ae39019")
+		)
+		(fp_line
+			(start 7.1 -7.1)
+			(end -7.1 -7.1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b3372664-2827-4357-a1de-4ade8533231b")
+		)
+		(fp_line
+			(start 7.1 7.1)
+			(end 7.1 -7.1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "69cf454a-3e7d-4f92-9004-b9e3a30d59f8")
+		)
+		(fp_line
+			(start -9.525 -9.525)
+			(end -9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "a2dc4a59-e267-4198-b1bf-c8f5dd8a9ec6")
+		)
+		(fp_line
+			(start -9.525 9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "200bf5f7-d7fc-4a5a-96b6-0e944bc6906d")
+		)
+		(fp_line
+			(start 9.525 -9.525)
+			(end -9.525 -9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "d57970fc-0e85-410d-9792-013c9eac5aa5")
+		)
+		(fp_line
+			(start 9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "cc79c9b2-f885-4c3e-96d1-d43eaad0381f")
+		)
+		(fp_line
+			(start -7 -7)
+			(end -7 7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "ca82aee9-dcca-4867-8b5e-803f4161171c")
+		)
+		(fp_line
+			(start -7 7)
+			(end 7 7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "1f2d2a19-fce1-4732-be16-63f85137a3eb")
+		)
+		(fp_line
+			(start 7 -7)
+			(end -7 -7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "cb41c5fd-36e6-421e-97df-f8a6d6fc3321")
+		)
+		(fp_line
+			(start 7 7)
+			(end 7 -7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "a0b5ad1d-0143-44e9-a8d6-a67fa5236544")
+		)
+		(fp_line
+			(start -7.25 -7.25)
+			(end -7.25 7.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9c7e2e57-c380-4fe2-8834-c0efddc60ce4")
+		)
+		(fp_line
+			(start -7.25 7.25)
+			(end 7.25 7.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d5e36144-f0a9-4cc0-b1cd-7b0601001a26")
+		)
+		(fp_line
+			(start 7.25 -7.25)
+			(end -7.25 -7.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "bcfa9022-5eb9-40cf-b00d-7aae68735525")
+		)
+		(fp_line
+			(start 7.25 7.25)
+			(end 7.25 -7.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "94e081e5-f2a8-4e5a-bb8a-6dbc328fec87")
+		)
+		(fp_line
+			(start -7 -7)
+			(end -7 7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a5192d9a-9e7e-46e9-a449-77b8e688a7b7")
+		)
+		(fp_line
+			(start -7 7)
+			(end 7 7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1f36b24b-0a5d-4632-9806-bd8e2c709ef5")
+		)
+		(fp_line
+			(start 7 -7)
+			(end -7 -7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cb73be9c-c69d-4700-aeb3-6ef28bc77264")
+		)
+		(fp_line
+			(start 7 7)
+			(end 7 -7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "01bf8ee2-a985-4644-b98b-2962a7d42e8a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "c68bf89a-7cd4-49e0-9dd9-8ed4f460532c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -5.08 0)
+			(size 1.75 1.75)
+			(drill 1.75)
+			(layers "*.Cu" "*.Mask")
+			(uuid "ec1a3dc3-82bb-483b-9318-c5a79b277e97")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 4 4)
+			(drill 4)
+			(layers "*.Cu" "*.Mask")
+			(uuid "4ca51685-19bf-41f4-8410-9058341ba784")
+		)
+		(pad "" np_thru_hole circle
+			(at 5.08 0)
+			(size 1.75 1.75)
+			(drill 1.75)
+			(layers "*.Cu" "*.Mask")
+			(uuid "5ca143cc-a65a-4e7b-9ce9-af23441407dc")
+		)
+		(pad "1" thru_hole circle
+			(at -3.81 -2.54)
+			(size 2.5 2.5)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 11 "Net-(S2-Pad2)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "51e3c2e9-189c-4a5b-afd3-e2a4dd2092d9")
+		)
+		(pad "2" thru_hole circle
+			(at 2.54 -5.08)
+			(size 2.5 2.5)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 12 "Net-(S3-Pad2)")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "72fae283-e985-415f-9d03-fd4a3214be41")
+		)
+		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "ScottoKeebs_MX:MX_PCB_1.00u"
+		(layer "F.Cu")
+		(uuid "97724cce-7c42-4ff9-a661-e6b1dd55030b")
+		(at 106.58 64)
+		(descr "MX keyswitch PCB Mount Keycap 1.00u")
+		(tags "MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
+		(property "Reference" "S1"
+			(at 0 -8 0)
+			(layer "F.SilkS")
+			(uuid "abfc5aed-40c5-4f4d-9123-af722f46240a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 0 8 0)
+			(layer "F.Fab")
+			(uuid "e7955263-6b43-4cff-8ba2-6b45b334aed4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "36932db5-37d0-43e6-af4a-379513bb4e89")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "31bdb7f3-e7f9-4948-933d-1e303cf7a457")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a4f0dbc-e25a-4d70-aeed-227029b0262e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/bf45f781-7ca5-48be-94d9-66089b4248d9")
+		(sheetname "Root")
+		(sheetfile "tklMechKeyboard.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -7.1 -7.1)
+			(end -7.1 7.1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "72c17057-936e-476d-aa4e-764042c2bad0")
+		)
+		(fp_line
+			(start -7.1 7.1)
+			(end 7.1 7.1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f0fc01ba-f94b-4c4a-900c-196c1238b9ce")
+		)
+		(fp_line
+			(start 7.1 -7.1)
+			(end -7.1 -7.1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ad27ec48-8f63-4ee2-ac54-ecfcba13f754")
+		)
+		(fp_line
+			(start 7.1 7.1)
+			(end 7.1 -7.1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c3b93cde-d28b-434f-8d11-9b94177e47c4")
+		)
+		(fp_line
+			(start -9.525 -9.525)
+			(end -9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "5a653ed5-323b-4c37-b075-983812c11099")
+		)
+		(fp_line
+			(start -9.525 9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "aa5945f7-b4ff-4a72-85eb-d4817db40920")
+		)
+		(fp_line
+			(start 9.525 -9.525)
+			(end -9.525 -9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "c3f33c0b-ec44-48ed-a06c-da7777ab6893")
+		)
+		(fp_line
+			(start 9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "4d51f8ef-548e-4e71-b218-28d24a9df5e7")
+		)
+		(fp_line
+			(start -7 -7)
+			(end -7 7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "40e7710a-565e-494d-8b98-618ed7edcf51")
+		)
+		(fp_line
+			(start -7 7)
+			(end 7 7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "fc0c7933-9b86-46b3-8bef-57abcd468e74")
+		)
+		(fp_line
+			(start 7 -7)
+			(end -7 -7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "d8f9f75b-b82a-4ece-bb82-93666e02d745")
+		)
+		(fp_line
+			(start 7 7)
+			(end 7 -7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "fac6f32d-8127-44f2-8060-0da137c4ee44")
+		)
+		(fp_line
+			(start -7.25 -7.25)
+			(end -7.25 7.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6adda3f3-726a-4ab7-9a64-d0dd8cad0cf1")
+		)
+		(fp_line
+			(start -7.25 7.25)
+			(end 7.25 7.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "384c197e-475b-4c42-9728-39da01010533")
+		)
+		(fp_line
+			(start 7.25 -7.25)
+			(end -7.25 -7.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "05f03606-cf0f-48d5-9cf7-ee26ac8ab468")
+		)
+		(fp_line
+			(start 7.25 7.25)
+			(end 7.25 -7.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ddd51833-a200-4d1b-8ead-7738c3a6b9de")
+		)
+		(fp_line
+			(start -7 -7)
+			(end -7 7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "631925de-2a23-43ed-aa71-c42df336e795")
+		)
+		(fp_line
+			(start -7 7)
+			(end 7 7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "eba7b6ed-ed8f-4bb8-8632-a978d48aa64f")
+		)
+		(fp_line
+			(start 7 -7)
+			(end -7 -7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c0242960-644e-42b0-84b9-fed17db04ed7")
+		)
+		(fp_line
+			(start 7 7)
+			(end 7 -7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e8c6ba1b-c72e-4fbb-9a47-248cb631c940")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "b54330ed-512b-458d-8fc9-25fb9260e579")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -5.08 0)
+			(size 1.75 1.75)
+			(drill 1.75)
+			(layers "*.Cu" "*.Mask")
+			(uuid "795b2eb3-2433-4f57-8ff5-3e3b7dc963d9")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 4 4)
+			(drill 4)
+			(layers "*.Cu" "*.Mask")
+			(uuid "2d7a1f3a-6d6c-4c9c-943a-e5c7a82dba6a")
+		)
+		(pad "" np_thru_hole circle
+			(at 5.08 0)
+			(size 1.75 1.75)
+			(drill 1.75)
+			(layers "*.Cu" "*.Mask")
+			(uuid "853eb98b-6495-42f1-9c09-58d6f0901f22")
+		)
+		(pad "1" thru_hole circle
+			(at -3.81 -2.54)
+			(size 2.5 2.5)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 10 "unconnected-(S1-Pad1)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "ed663167-f366-40d3-aedc-06d02ee0c6d7")
+		)
+		(pad "2" thru_hole circle
+			(at 2.54 -5.08)
+			(size 2.5 2.5)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 9 "Net-(S1-Pad2)")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "34ddb77f-7148-45dd-866a-6bb1f0ad000f")
+		)
+		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "ScottoKeebs_MX:MX_PCB_1.00u"
+		(layer "F.Cu")
+		(uuid "e8d25212-b6b6-4723-8d2c-7d1c72b2ec37")
+		(at 106.92 116.5)
+		(descr "MX keyswitch PCB Mount Keycap 1.00u")
+		(tags "MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
+		(property "Reference" "S4"
+			(at 0 -8 0)
+			(layer "F.SilkS")
+			(uuid "afeaf703-bf81-4915-9edc-49151d4fc253")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 0 8 0)
+			(layer "F.Fab")
+			(uuid "ba6b12b1-27e8-4671-b8c3-70196cb8f234")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "269eefe3-be54-49a1-9356-f7a653b2391a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "23e840b4-e323-4e23-9195-b6683116aac3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "404391ea-8db6-4489-b38f-9d8948676752")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/21291730-44a0-4a45-8751-8be96fdabffa")
+		(sheetname "Root")
+		(sheetfile "tklMechKeyboard.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -7.1 -7.1)
+			(end -7.1 7.1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "49df8fc0-a68d-4239-aa5b-2c78633b59d0")
+		)
+		(fp_line
+			(start -7.1 7.1)
+			(end 7.1 7.1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8893d4a7-e9e7-4ffe-ba9c-efdadda428ba")
+		)
+		(fp_line
+			(start 7.1 -7.1)
+			(end -7.1 -7.1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e0fe340b-4f2a-45db-aced-bfda1587fc1f")
+		)
+		(fp_line
+			(start 7.1 7.1)
+			(end 7.1 -7.1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a4b5c72c-cb96-4b90-b1e3-8b4bd61ab1e8")
+		)
+		(fp_line
+			(start -9.525 -9.525)
+			(end -9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "d2489068-82b5-490a-a7e4-48c481d18817")
+		)
+		(fp_line
+			(start -9.525 9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "3b7e0bb9-6554-4af6-a5c5-13b00c0952e7")
+		)
+		(fp_line
+			(start 9.525 -9.525)
+			(end -9.525 -9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "ab044907-523b-4b52-8253-e463628f4666")
+		)
+		(fp_line
+			(start 9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "c55dcecc-34b3-4ec2-be30-b5ee14ca5502")
+		)
+		(fp_line
+			(start -7 -7)
+			(end -7 7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "4e3cba89-36de-4f89-924d-33f397bd7a28")
+		)
+		(fp_line
+			(start -7 7)
+			(end 7 7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "e3536183-5513-4ad3-87dc-54b8ed7f70e5")
+		)
+		(fp_line
+			(start 7 -7)
+			(end -7 -7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "c0eb6e3a-f0f6-40a3-8084-67eaefa14c5e")
+		)
+		(fp_line
+			(start 7 7)
+			(end 7 -7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "4b3ab393-a3a4-47b8-98dc-0abd1451ac8a")
+		)
+		(fp_line
+			(start -7.25 -7.25)
+			(end -7.25 7.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ffd4d365-9974-416d-a1c0-3939cb626c59")
+		)
+		(fp_line
+			(start -7.25 7.25)
+			(end 7.25 7.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "776deeae-18b0-4ad3-ba4b-c2cdb4591551")
+		)
+		(fp_line
+			(start 7.25 -7.25)
+			(end -7.25 -7.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "df44c680-bee5-4d58-8121-1c28553cbd08")
+		)
+		(fp_line
+			(start 7.25 7.25)
+			(end 7.25 -7.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "51d673aa-25e1-457d-9cad-0fb740e24320")
+		)
+		(fp_line
+			(start -7 -7)
+			(end -7 7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d36aa841-82f6-45c8-b4e4-9bb2a97474fe")
+		)
+		(fp_line
+			(start -7 7)
+			(end 7 7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c4c991fe-5234-465b-bcda-9660a9702353")
+		)
+		(fp_line
+			(start 7 -7)
+			(end -7 -7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a07a4892-79b8-4ed0-a8c1-df083e906571")
+		)
+		(fp_line
+			(start 7 7)
+			(end 7 -7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b1282850-d42e-4709-ac19-ac228a495c87")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "9ce4ee0c-cb3b-478c-bbe4-1de8c84655df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -5.08 0)
+			(size 1.75 1.75)
+			(drill 1.75)
+			(layers "*.Cu" "*.Mask")
+			(uuid "67ec1561-0e47-4aa4-b3bc-65212015dc9b")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 4 4)
+			(drill 4)
+			(layers "*.Cu" "*.Mask")
+			(uuid "98ec9068-ad59-47d9-9c2e-d99c69155f7d")
+		)
+		(pad "" np_thru_hole circle
+			(at 5.08 0)
+			(size 1.75 1.75)
+			(drill 1.75)
+			(layers "*.Cu" "*.Mask")
+			(uuid "a994528a-ec5e-4239-a5ec-8dcc9cf70bc6")
+		)
+		(pad "1" thru_hole circle
+			(at -3.81 -2.54)
+			(size 2.5 2.5)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 12 "Net-(S3-Pad2)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "c954140f-6794-4467-a055-6a00afb191d6")
+		)
+		(pad "2" thru_hole circle
+			(at 2.54 -5.08)
+			(size 2.5 2.5)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "Net-(D1-A)")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "82c62880-969b-4171-8242-0c53860006bc")
+		)
+		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "ScottoKeebs_MX:MX_PCB_1.00u"
+		(layer "F.Cu")
+		(uuid "eabbb1ba-8dfd-44be-9d8e-592d81de8e95")
+		(at 88 89)
+		(descr "MX keyswitch PCB Mount Keycap 1.00u")
+		(tags "MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
+		(property "Reference" "S2"
+			(at 0 -8 0)
+			(layer "F.SilkS")
+			(uuid "92c5138f-239b-4c07-ae1f-dc7b1d914b74")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 0 8 0)
+			(layer "F.Fab")
+			(uuid "babf5f7f-1cfa-4a3d-a682-d7e5224992d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0fa25c5c-277e-47cb-b5c9-075a9d2b61d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eda929b0-e648-4874-9a4c-2912586d2731")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "89facd94-185d-48cf-ab7c-15c8b39975d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/802aea2b-e94e-4e36-99d7-c588f65b02e5")
+		(sheetname "Root")
+		(sheetfile "tklMechKeyboard.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -7.1 -7.1)
+			(end -7.1 7.1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6604d5e9-104e-41c5-a40c-d945dc038872")
+		)
+		(fp_line
+			(start -7.1 7.1)
+			(end 7.1 7.1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7659e6fe-f658-4203-b4d1-ddc3e4405e95")
+		)
+		(fp_line
+			(start 7.1 -7.1)
+			(end -7.1 -7.1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "13991998-b12d-435a-a369-ce6e9f34aed4")
+		)
+		(fp_line
+			(start 7.1 7.1)
+			(end 7.1 -7.1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "166b9008-4ebb-4a8f-8313-ec30fede42b0")
+		)
+		(fp_line
+			(start -9.525 -9.525)
+			(end -9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "ea381414-846f-4968-94db-213c5d6bc1e2")
+		)
+		(fp_line
+			(start -9.525 9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "0598bf44-85c3-4442-bac7-71ea324b2672")
+		)
+		(fp_line
+			(start 9.525 -9.525)
+			(end -9.525 -9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "0ab077ba-e268-4c6a-9702-42c5cb87ae6b")
+		)
+		(fp_line
+			(start 9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "c9962404-ea4d-412d-a115-e54fc7b590ad")
+		)
+		(fp_line
+			(start -7 -7)
+			(end -7 7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "c58a44e4-6c94-42f4-b4fb-aa77c5ca2a37")
+		)
+		(fp_line
+			(start -7 7)
+			(end 7 7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "b0f1edcf-ad33-422c-b0d0-c14f35996cd2")
+		)
+		(fp_line
+			(start 7 -7)
+			(end -7 -7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "9f764627-20ae-42a5-80d0-92e5dc8d3bda")
+		)
+		(fp_line
+			(start 7 7)
+			(end 7 -7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "6377ec30-2f58-4d58-9e4d-6cb937ea329f")
+		)
+		(fp_line
+			(start -7.25 -7.25)
+			(end -7.25 7.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8cd0fae2-bdc1-42a7-9610-50b2d60d4b50")
+		)
+		(fp_line
+			(start -7.25 7.25)
+			(end 7.25 7.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "501d1eea-db83-4fa7-8e3a-2a397467a991")
+		)
+		(fp_line
+			(start 7.25 -7.25)
+			(end -7.25 -7.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "437abb35-65f9-43a8-9fcb-95a06c179268")
+		)
+		(fp_line
+			(start 7.25 7.25)
+			(end 7.25 -7.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5f98b0d2-af04-464c-a16c-ba2ad69a6749")
+		)
+		(fp_line
+			(start -7 -7)
+			(end -7 7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7c47ad58-4531-4f43-80a2-ba93525a0a15")
+		)
+		(fp_line
+			(start -7 7)
+			(end 7 7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "07df5e14-529e-4578-8270-63890c3a2106")
+		)
+		(fp_line
+			(start 7 -7)
+			(end -7 -7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "44497174-da3a-4dda-b9f6-a25ff49e468d")
+		)
+		(fp_line
+			(start 7 7)
+			(end 7 -7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a92dbab2-ee94-4e41-aa58-9439ae007777")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "dad8ce97-645b-4a45-9110-a1d4b4fd5aca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -5.08 0)
+			(size 1.75 1.75)
+			(drill 1.75)
+			(layers "*.Cu" "*.Mask")
+			(uuid "9204b084-3a5c-4f8d-8dff-c50fd14af506")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 4 4)
+			(drill 4)
+			(layers "*.Cu" "*.Mask")
+			(uuid "07190940-452d-4365-8b11-f5a73b078961")
+		)
+		(pad "" np_thru_hole circle
+			(at 5.08 0)
+			(size 1.75 1.75)
+			(drill 1.75)
+			(layers "*.Cu" "*.Mask")
+			(uuid "acd46d3f-1345-4cbc-a4a6-27ff3c95dcaa")
+		)
+		(pad "1" thru_hole circle
+			(at -3.81 -2.54)
+			(size 2.5 2.5)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 9 "Net-(S1-Pad2)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "a0bfdd45-caf4-447b-8b04-f7ccf7607005")
+		)
+		(pad "2" thru_hole circle
+			(at 2.54 -5.08)
+			(size 2.5 2.5)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 11 "Net-(S2-Pad2)")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "57aaa8ba-581c-48e0-a49a-e1c697b6451d")
+		)
+		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "ScottoKeebs_Components:Diode_DO-35"
+		(layer "B.Cu")
+		(uuid "1919d877-f779-47ca-8123-4e00dd671912")
+		(at 129.81 75.1 180)
+		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
+		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
+		(property "Reference" "D4"
+			(at 3.81 2.12 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "87a082a8-3e50-4e23-b530-8a05f2bb0c87")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Diode"
+			(at 3.81 -2.12 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f245ded8-1f0a-4d4c-b500-ab7648430c6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a0aed7b8-fbe3-4c64-91e7-abcf574a003e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c3b1efae-74d7-4772-9095-c903eec58433")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "595be2e0-2bd8-4415-8896-6eaaa3ea483f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9d3a0c77-7b34-4e31-b35a-eb28c2312912")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7d8a0f10-b79f-4b07-812f-1ebf3afa0dfe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "D*DO?35*")
+		(path "/8ee8515e-e55e-42cd-b376-16f4c6e05f83")
+		(sheetname "Root")
+		(sheetfile "tklMechKeyboard.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 4.56 0)
+			(end 4.06 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "daf55d54-6e4f-4307-8088-10ef2038c087")
+		)
+		(fp_line
+			(start 4.06 0.4)
+			(end 3.46 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "d839694a-76a4-449d-a4ff-02138572bbba")
+		)
+		(fp_line
+			(start 4.06 -0.4)
+			(end 4.06 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "a15e2e69-7200-4b52-a105-bbdedfd30ab4")
+		)
+		(fp_line
+			(start 3.46 0)
+			(end 4.06 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "028a2d6c-fdbb-4b2e-aea1-1568e044965e")
+		)
+		(fp_line
+			(start 3.46 0)
+			(end 3.06 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "37202d04-005f-4ac3-9a64-7bc0a8782c4b")
+		)
+		(fp_line
+			(start 3.46 -0.55)
+			(end 3.46 0.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "f07322bf-6008-458a-ae4d-0cd3feea1668")
+		)
+		(fp_line
+			(start 8.67 1.25)
+			(end 8.67 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "a4d069cc-7f7e-4bef-89e3-783df3bb0e1a")
+		)
+		(fp_line
+			(start 8.67 -1.25)
+			(end -1.05 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "e2ce18b8-9496-4376-8080-8eb0936d388c")
+		)
+		(fp_line
+			(start -1.05 1.25)
+			(end 8.67 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "f84c5346-95fb-4f93-8230-668bc27c625d")
+		)
+		(fp_line
+			(start -1.05 -1.25)
+			(end -1.05 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "a907af45-a5c8-4024-a155-a5b94abb7764")
+		)
+		(pad "1" thru_hole rect
+			(at 0 0 180)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 7 "unconnected-(D4-K-Pad1)")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "771367a0-c470-48bd-af1f-dcfd736a25db")
+		)
+		(pad "2" thru_hole oval
+			(at 7.62 0 180)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 8 "unconnected-(D4-A-Pad2)")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "ecc71f81-a823-449c-b16f-37a52daa10e1")
+		)
+		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "ScottoKeebs_Components:Diode_DO-35"
+		(layer "B.Cu")
+		(uuid "38cc591d-71b2-4f5e-bb91-a7808f887a07")
+		(at 129.81 64.45 180)
+		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
+		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
+		(property "Reference" "D1"
+			(at 3.81 2.12 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "cecc3be4-49ba-4768-9942-0901f5389266")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Diode"
+			(at 3.81 -2.12 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e33d4c3e-6fb4-4fc1-b476-b3c3ed5cb6a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2a327166-3c84-4ec8-ba87-0a65e80c16e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a51c6515-8bd5-4db5-8c48-0428cdaf1e7e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "69a071e9-50b9-49aa-b696-02147e4305fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "26f486fb-cbf0-411f-8a47-ca6c75836d43")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b1e7efec-1217-4788-b97a-2f0f0f0d9a88")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "D*DO?35*")
+		(path "/7801f164-371b-407f-80c9-aa48de01db92")
+		(sheetname "Root")
+		(sheetfile "tklMechKeyboard.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 4.56 0)
+			(end 4.06 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "65a3b745-4270-4e6b-86fd-941e2776cdfa")
+		)
+		(fp_line
+			(start 4.06 0.4)
+			(end 3.46 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "fc14ba64-16b0-4761-b1f3-da4c1d39787c")
+		)
+		(fp_line
+			(start 4.06 -0.4)
+			(end 4.06 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "63ee3cdf-e8bd-4b71-baef-668ff67b11ce")
+		)
+		(fp_line
+			(start 3.46 0)
+			(end 4.06 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "0df632a2-bbec-49d6-8293-2caf0ecf3688")
+		)
+		(fp_line
+			(start 3.46 0)
+			(end 3.06 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "5b6f7fa3-74b1-44b7-b4eb-e69268fe77b5")
+		)
+		(fp_line
+			(start 3.46 -0.55)
+			(end 3.46 0.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "e5c3a747-63dd-4755-ba99-d07ad5cbcf09")
+		)
+		(fp_line
+			(start 8.67 1.25)
+			(end 8.67 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "fba0c0f0-f833-4b96-b098-569c4d2b63bb")
+		)
+		(fp_line
+			(start 8.67 -1.25)
+			(end -1.05 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "2b10d928-e602-42ee-b43c-2fd099500597")
+		)
+		(fp_line
+			(start -1.05 1.25)
+			(end 8.67 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "8011edf9-ceb5-4fa7-87c7-cea71e80537d")
+		)
+		(fp_line
+			(start -1.05 -1.25)
+			(end -1.05 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "228c0a63-521c-4cd6-b66f-1e1001fc11b5")
+		)
+		(pad "1" thru_hole rect
+			(at 0 0 180)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "unconnected-(D1-K-Pad1)")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "af68c846-20d9-4cc5-ad8a-9273ae3621d4")
+		)
+		(pad "2" thru_hole oval
+			(at 7.62 0 180)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "Net-(D1-A)")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "fa4525cc-88fa-4339-9609-208c36d9fd0a")
+		)
+		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "ScottoKeebs_Components:Diode_DO-35"
+		(layer "B.Cu")
+		(uuid "9ca4029c-94c7-4ec8-82e6-b5e0ffa5cf72")
+		(at 129.81 68 180)
+		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
+		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
+		(property "Reference" "D2"
+			(at 3.81 2.12 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "e29ff45e-a1d4-4d08-909d-4779e9cd0ec8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Diode"
+			(at 3.81 -2.12 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0b725afb-4b4a-4450-87af-d9c7b9e23255")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "73184ff2-871f-4de3-b1b1-4214db5cdfe6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f40d5743-90e4-4f3e-a5d0-3b13df1e810a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9cf9d088-00e8-4856-b5bf-4b70aacf6b9e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ac63426e-127f-44c2-ac51-480fceb9a8bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "517490a6-b771-4fcb-85ae-4faff5e7584b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "D*DO?35*")
+		(path "/75b2a82c-ee0f-48df-ac70-345a3eaab215")
+		(sheetname "Root")
+		(sheetfile "tklMechKeyboard.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 4.56 0)
+			(end 4.06 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "10ce2285-32df-4b52-a883-217b28c3f4b8")
+		)
+		(fp_line
+			(start 4.06 0.4)
+			(end 3.46 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "e929c9bc-bf99-49d6-a225-13e72149c878")
+		)
+		(fp_line
+			(start 4.06 -0.4)
+			(end 4.06 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "54a05da0-9f0d-4fa0-8543-4db0416cffe9")
+		)
+		(fp_line
+			(start 3.46 0)
+			(end 4.06 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "9c6e3647-8136-43c1-b3b0-4442cc9f702e")
+		)
+		(fp_line
+			(start 3.46 0)
+			(end 3.06 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "45870959-6d93-484f-b7ef-fce7b86902c2")
+		)
+		(fp_line
+			(start 3.46 -0.55)
+			(end 3.46 0.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "71490645-2ff4-43e3-b301-5efeee849af3")
+		)
+		(fp_line
+			(start 8.67 1.25)
+			(end 8.67 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "45cc804c-fecf-42cc-b561-ce3ab9af5b5f")
+		)
+		(fp_line
+			(start 8.67 -1.25)
+			(end -1.05 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "3c44fb94-bf84-4552-a07e-2b8318a7875f")
+		)
+		(fp_line
+			(start -1.05 1.25)
+			(end 8.67 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "9f83b866-e8f4-4250-ba54-3ea7f1244c70")
+		)
+		(fp_line
+			(start -1.05 -1.25)
+			(end -1.05 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "34ec088d-f755-48c5-aba9-6f438f1c0646")
+		)
+		(pad "1" thru_hole rect
+			(at 0 0 180)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 4 "unconnected-(D2-K-Pad1)")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "ffa7266a-d2f5-4a17-8c71-49e58500c598")
+		)
+		(pad "2" thru_hole oval
+			(at 7.62 0 180)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 3 "unconnected-(D2-A-Pad2)")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "a592ae2a-9dac-45e0-bd6d-22d3f3868e8a")
+		)
+		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "ScottoKeebs_Components:Diode_DO-35"
+		(layer "B.Cu")
+		(uuid "a285171c-7ad0-4f41-890d-ff095aee4d5d")
+		(at 129.81 71.55 180)
+		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
+		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
+		(property "Reference" "D3"
+			(at 3.81 2.12 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "5d535707-910f-4fce-a71c-1089f98d9373")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Diode"
+			(at 3.81 -2.12 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d12bc31a-69b8-4eb9-ab88-afe83e893421")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f2ffa078-6014-4494-af9f-04f7f352b5ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3604fdb8-04da-4aaa-bbab-6a769acd9e38")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a9786363-0e2e-489f-b90d-e3fbf94c7ff0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ad14230a-474d-4f06-917e-c540b2d18058")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2be0c874-af93-45bb-b454-335a3ddcca68")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "D*DO?35*")
+		(path "/8d6cd84e-2421-4f96-a160-8999f379d138")
+		(sheetname "Root")
+		(sheetfile "tklMechKeyboard.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 4.56 0)
+			(end 4.06 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "91767b38-e454-4ece-98c2-9d53c5841e18")
+		)
+		(fp_line
+			(start 4.06 0.4)
+			(end 3.46 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "1a48f80e-91ce-4baa-b91b-069cd6fc0479")
+		)
+		(fp_line
+			(start 4.06 -0.4)
+			(end 4.06 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "06f16474-c9e6-44d8-b70e-4df85a9bb332")
+		)
+		(fp_line
+			(start 3.46 0)
+			(end 4.06 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "962bfbf8-c058-45dd-a816-410452a01deb")
+		)
+		(fp_line
+			(start 3.46 0)
+			(end 3.06 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "fff63cc6-9dda-4e8a-9e0a-27cb218e5299")
+		)
+		(fp_line
+			(start 3.46 -0.55)
+			(end 3.46 0.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "adb44fa2-3805-4fa5-9193-a21ab0fc982c")
+		)
+		(fp_line
+			(start 8.67 1.25)
+			(end 8.67 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "352b5687-7076-4766-b678-78b318ca3a97")
+		)
+		(fp_line
+			(start 8.67 -1.25)
+			(end -1.05 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "14f1eef7-e334-40f8-8581-fc8a993489aa")
+		)
+		(fp_line
+			(start -1.05 1.25)
+			(end 8.67 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "9d431847-ecca-4a2e-9655-89ac3501f3a2")
+		)
+		(fp_line
+			(start -1.05 -1.25)
+			(end -1.05 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "54c5686d-dbdb-444f-9bbf-abe0d422f4e4")
+		)
+		(pad "1" thru_hole rect
+			(at 0 0 180)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 6 "unconnected-(D3-K-Pad1)")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "f42e3f9c-244f-4a4f-8c7f-315af0d110b7")
+		)
+		(pad "2" thru_hole oval
+			(at 7.62 0 180)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 5 "unconnected-(D3-A-Pad2)")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "0d694bac-fb15-40be-903e-4baa99260f34")
+		)
+		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(gr_rect
+		(start 70 46)
+		(end 144.5 138.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "35b4e1e4-4e68-4b82-8693-8b2fac094449")
+	)
 )
