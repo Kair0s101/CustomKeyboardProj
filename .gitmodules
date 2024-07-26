@@ -1,0 +1,6 @@
+[submodule "Keyboard Project Files/KiCad/Lib's/MX_Alps_Hybrid.pretty"]
+	path = Keyboard Project Files/KiCad/Lib's/MX_Alps_Hybrid.pretty
+	url = https://github.com/ai03-2725/MX_Alps_Hybrid.pretty
+[submodule "Keyboard Project Files/KiCad/Lib's/random-keyboard-parts.pretty"]
+	path = Keyboard Project Files/KiCad/Lib's/random-keyboard-parts.pretty
+	url = https://github.com/ai03-2725/random-keyboard-parts.pretty
